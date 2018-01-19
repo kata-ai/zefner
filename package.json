@@ -9,7 +9,7 @@
   },
   "name": "zefner",
   "description": "A knight that will attack and stress load your HTTP's endpoint.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
