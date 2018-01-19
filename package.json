@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "axios": "^0.17.1",
+    "commander": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^9.3.0"
+  },
+  "name": "zefner",
+  "description": "A knight that will attack and stress load your HTTP's endpoint.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityapurwa/zefner.git"
+  },
+  "keywords": [
+    "stress",
+    "load",
+    "test",
+    "attack"
+  ],
+  "author": "Aditya Purwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityapurwa/zefner/issues"
+  },
+  "homepage": "https://github.com/adityapurwa/zefner#readme",
+  "bin": {
+    "zefner": "./dist/index.js"
+  }
+}
