@@ -19,7 +19,7 @@ To attack an endpoint, you can use the CLI interface
 or the API provided by Zefner directly.
 
 ```
-./node_modules/.bin/zefner get https://google.com -n 1000
+./node_modules/.bin/zefner -a https://google.com -n 1000
 ```
 
 This will launch 1000 HTTP GET request to the endpoint
